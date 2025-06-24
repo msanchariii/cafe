@@ -1,12 +1,42 @@
-# React + Vite
+# Coffee Landing Page ☕️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually rich, coffee-themed landing page for a cafe website, built with **React**, **Vite**, and **GSAP** for smooth, interactive animations.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Animated Hero Section:** Video background plays on scroll trigger for immersive experience.
+- **GSAP Animations:** Engaging transitions and effects throughout the page.
+- **Unique Design:** Noisy/grainy textures and a warm, coffee-inspired palette.
+- **Responsive Layout:** Looks great on all devices.
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [GSAP](https://gsap.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+
+## 📸 Preview
+
+![Coffee Landing Page Screenshot](./screenshot.png)
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/msanchariii/cafe.git
+cd coffee-landing-page
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## 📂 Project Structure
+
+```
+src/
+    components/
+    assets/
+    App.jsx
+    main.jsx
+```

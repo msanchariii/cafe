@@ -82,17 +82,17 @@ const Hero = () => {
                 <div className="body">
                     <div className="content">
                         <div className="hidden space-y-5 md:block">
-                            <p>Cool. Crisp. Classic</p>
+                            <p className="ml-6">Classic.</p>
                             <p className="subtitle">
-                                Sip the Spirit <br /> of Summer
+                                Sip the Spirit <br /> of Winter
                             </p>
                         </div>
-                        <div className="view-cocktails">
+                        <div className="view-coffee">
                             <p className="subtitle">
-                                Every cocktail tells a story. <br /> Discover
+                                Every coffee tells a story. <br /> Discover
                                 yours.
                             </p>
-                            <a href="#cocktails">View Cocktails</a>
+                            <a href="#menu">View Coffees</a>
                         </div>
                     </div>
                 </div>
@@ -105,8 +105,6 @@ const Hero = () => {
                     preload="auto"
                     ref={videoRef}
                     className="brightness-90 contrast-150 sepia-50"
-                    // autoPlay
-                    // loop
                 />
             </div>
         </>

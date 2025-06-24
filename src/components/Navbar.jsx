@@ -18,7 +18,7 @@ const Navbar = () => {
                 end: "bottom top",
                 toggleActions: "play none none reverse",
                 scrub: 1,
-                markers: true,
+                // markers: true,
             },
         });
     }, []);
