@@ -43,7 +43,7 @@ const Gallery = () => {
         <div className="gallery noisy w-full bg-black" id="gallery">
             <h2 id="gallery-heading">Gallery</h2>
             <div
-                className="mx-auto grid max-h-[90vh] grid-cols-3 grid-rows-2 place-items-center gap-8 lg:gap-10"
+                className="mx-auto grid grid-cols-3 grid-rows-2 place-items-center gap-8 lg:gap-10"
                 id="gallery-container"
             >
                 <NoisyImage

@@ -28,10 +28,7 @@ const Contact = () => {
         // });
     }, []);
     return (
-        <section
-            className="noisy relative z-10 h-dvh bg-orange-950"
-            id="contact"
-        >
+        <section className="noisy relative z-10 bg-orange-950" id="contact">
             <h2>Reach Us</h2>
             <div id="contact-container">
                 <div id="left-container">
