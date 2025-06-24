@@ -60,7 +60,7 @@ const Contact = () => {
                     className="outline-coffee-light aspect-square overflow-hidden rounded-xl outline-4 outline-dashed md:h-96"
                 >
                     <img
-                        src="/images/gallery/coffee1.jpg"
+                        src="/images/gallery/coffee1.webp"
                         alt="coffee"
                         className="h-full w-full rounded-xl object-cover"
                     />
