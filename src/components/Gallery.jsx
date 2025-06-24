@@ -27,19 +27,20 @@ const Gallery = () => {
             opacity: 0,
             ease: "power2.out",
         });
-        tl.from("#gallery .noisy-container", {
-            opacity: 0.5,
-            scale: 0.9,
-            duration: 1.5,
-            ease: "power2.out",
-        });
+        tl.from(
+            "#gallery .noisy-container",
+            {
+                opacity: 0,
+                duration: 1,
+                ease: "power1.inOut",
+                stagger: 0.04,
+            },
+            "-=0.5",
+        );
     }, []);
 
     return (
-        <div
-            className="gallery noisy border-x-8 border-amber-200 bg-black"
-            id="gallery"
-        >
+        <div className="gallery noisy w-full bg-black" id="gallery">
             <h2 id="gallery-heading">Gallery</h2>
             <div
                 className="mx-auto grid max-h-[90vh] grid-cols-3 grid-rows-2 place-items-center gap-8 lg:gap-10"
@@ -86,7 +87,7 @@ const NoisyImage = ({ src, alt = "", className = "" }) => {
             className={`noisy-container relative overflow-hidden ${className}`}
         >
             <img src={src} alt={alt} className="h-full w-full object-cover" />
-            <div className="pointer-events-none absolute inset-0 z-10 bg-[url('/images/noise.png')] bg-cover opacity-20 mix-blend-overlay" />
+            <div className="pointer-events-none absolute inset-0 z-30 bg-[url('/images/noise.png')] opacity-80" />
         </div>
     );
 };

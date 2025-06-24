@@ -28,9 +28,45 @@ const Contact = () => {
         // });
     }, []);
     return (
-        <div className="noisy relative z-10 h-dvh bg-orange-950" id="contact">
+        <section
+            className="noisy relative z-10 h-dvh bg-orange-950"
+            id="contact"
+        >
             <h2>Reach Us</h2>
-        </div>
+            <div id="contact-container">
+                <div id="left-container">
+                    <h3>Address</h3>
+                    <p>
+                        <span>1234</span> Street Name <span>,</span> City{" "}
+                        <span>,</span> State <span>,</span> Zip Code
+                        <br />
+                        Country
+                    </p>
+                    <h3>Email</h3>
+                    <p>
+                        <a href="mailto:example@example.com">
+                            example<span>@</span>example<span>.</span>com
+                        </a>
+                    </p>
+                    <h3>Phone</h3>
+                    <p>
+                        <a href="tel:+1234567890">
+                            <span>+1 (234) 567-890</span>
+                        </a>
+                    </p>
+                </div>
+                <div
+                    id="right-container"
+                    className="outline-coffee-light aspect-square overflow-hidden rounded-xl outline-4 outline-dashed md:h-96"
+                >
+                    <img
+                        src="/images/gallery/coffee1.jpg"
+                        alt="coffee"
+                        className="h-full w-full rounded-xl object-cover"
+                    />
+                </div>
+            </div>
+        </section>
     );
 };
 
