@@ -25,7 +25,9 @@ const Navbar = () => {
     return (
         <nav>
             <div>
-                <p>KoFi Cafe</p>
+                <p>
+                    <a href="#hero">Kofi Cafe</a>
+                </p>
                 <ul>
                     <li>
                         <a href="#menu">Menu</a>
