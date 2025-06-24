@@ -10,6 +10,17 @@ const Navbar = () => {
             stagger: 0.1,
             ease: "power2.out",
         });
+        gsap.to("nav", {
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            scrollTrigger: {
+                trigger: "nav",
+                start: "top top",
+                end: "bottom top",
+                toggleActions: "play none none reverse",
+                scrub: 1,
+                markers: true,
+            },
+        });
     }, []);
     return (
         <nav>

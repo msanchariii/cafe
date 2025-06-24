@@ -79,10 +79,10 @@ body {
     }
 
     nav {
-        @apply fixed z-50 w-full overflow-hidden border-t-8 border-amber-200 bg-black/50;
+        @apply fixed z-50 w-full overflow-hidden border-t-8 border-amber-200;
 
         div {
-            @apply container mx-auto flex h-full flex-col items-center gap-5 px-5 py-4 md:flex-row md:justify-between lg:px-4;
+            @apply container mx-auto flex h-full flex-col items-center gap-5 px-5 py-4 md:flex-row md:justify-between lg:px-8;
         }
 
         p {
