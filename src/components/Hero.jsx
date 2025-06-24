@@ -99,7 +99,7 @@ const Hero = () => {
             </section>
             <div className="fixed inset-0 top-0 left-0 border-8 border-amber-200">
                 <video
-                    src="/videos/output.mp4"
+                    src="/cafe/videos/output.mp4"
                     muted
                     playsInline
                     preload="auto"

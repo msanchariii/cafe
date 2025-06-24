@@ -35,8 +35,8 @@ const Footer = () => {
             >
                 <div className="self-stretch text-white">
                     <img
-                        src="/images/cat.gif"
-                        alt=""
+                        src="/cafe/images/cat.gif"
+                        alt="cat drinking coffee gif"
                         className="h-24 w-24 rounded-full border-4 border-amber-200 object-cover shadow-lg md:h-32 md:w-32"
                     />
                     <p className="font-modern-negra mt-4 text-amber-200">

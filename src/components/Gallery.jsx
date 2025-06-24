@@ -3,11 +3,11 @@ import gsap from "gsap";
 
 const Gallery = () => {
     const galleryImages = [
-        "/images/gallery/coffee1.webp",
-        "/images/gallery/coffee2.webp",
-        "/images/gallery/coffee3.webp",
-        "/images/gallery/coffee4.webp",
-        "/images/gallery/coffee5.webp",
+        "/cafe/images/gallery/coffee1.webp",
+        "/cafe/images/gallery/coffee2.webp",
+        "/cafe/images/gallery/coffee3.webp",
+        "/cafe/images/gallery/coffee4.webp",
+        "/cafe/images/gallery/coffee5.webp",
     ];
 
     useGSAP(() => {
