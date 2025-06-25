@@ -20,15 +20,17 @@ const Contact = () => {
             opacity: 0,
             ease: "power2.out",
         });
-        // tl.from("ul li h3", {
-        //     duration: 0.8,
-        //     y: -50,
-        //     opacity: 0,
-        //     ease: "power2.out",
-        // });
+        // tl.from(
+        //     "#left-container p",
+        //     {
+        //         opacity: 0,
+        //         y: 50,
+        //         ease: "power1.inOut",
+        //     },
+        // );
     }, []);
     return (
-        <section className="noisy relative z-10 bg-orange-950" id="contact">
+        <section className="noisy relative z-10 bg-[#1a0800]" id="contact">
             <h2>Reach Us</h2>
             <div id="contact-container">
                 <div id="left-container">
